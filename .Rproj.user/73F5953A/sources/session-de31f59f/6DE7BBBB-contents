@@ -15,10 +15,13 @@ format:
       gutter-width: 1.5rem
     theme: superhero
     self-contained: true  
+    bibliography: biblio.bib
+    reference-location: margin
+    citation-location: margin
 ---
 # Presentation
 
-Daje, dajino, dajone
+Daje, dajino, dajone. [@ggplot]
 
 All'improvviso, Capena
 ![Capena](Dajino/img-2.jpg)
@@ -26,6 +29,22 @@ All'improvviso, Capena
 
 ## Mini dajino
 Poffarbacco $$X = V + E$$
+
+::: {.grid}
+
+::: {.g-col-4}
+Daje
+:::
+
+::: {.g-col-4}
+Megadaje
+:::
+
+::: {.g-col-4}
+Superdaje
+:::
+
+:::
 
 ### Micro dajino
 
