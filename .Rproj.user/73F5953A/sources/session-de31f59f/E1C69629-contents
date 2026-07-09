@@ -66,4 +66,10 @@ plot(x, dx, type = "l", cex = 2, lwd = 3)
 ```{r}
 plot(x, dx, type = "l", cex = 2, lwd = 3)
 plot(x, pnorm(x), type = "l")
+
+```
+
+```{r}
+#| tbl-cap: Tabellona
+#| label: tbl-tab
 ```
