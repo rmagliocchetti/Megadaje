@@ -1,8 +1,27 @@
 ---
 title: "Dajedaje"
-format: html
+author: pino
+affiliation: Sapienza
+format:
+  html:
+    toc: true
+    toc-title: ao   
+    toc-location: left
+    number-sections: true
+    grid:
+      sidebar-width: 200px
+      body-width: 900px
+      margin-width: 400px
+      gutter-width: 1.5rem
+    theme: superhero
+    self-contained: true  
 ---
-
 # Presentation
 
-Daje daje bello bello
+Daje, dajino, dajone
+
+## Mini dajino
+
+### Micro dajino
+
+#### Nano dajino
