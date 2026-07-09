@@ -18,6 +18,52 @@ format:
     bibliography: biblio.bib
     reference-location: margin
     citation-location: margin
+execute: 
+  echo: false
 ---
 
-## 
+```{r}
+head(cars)
+```
+
+```{r}
+#| echo: true
+#| eval: false
+
+head(cars)
+
+```
+
+```{r}
+#| lst-label: lst-default
+#| lst-cap: Default settings
+head(cars)
+
+```
+
+```{r}
+#| echo: false
+#| lst-label: lst-echoF
+#| lst-cap: Echo False
+head(cars)
+
+```
+
+@fig-normalProperties
+
+```{r}
+#| layout-ncol: 3
+#| label: fig-normalProperties
+#| fig-cap: Normal distribution
+#| fig-subcap: 
+#|    - "Density"
+#|    - "Variability"
+x = seq(-3,3, length.out= 10000)
+dx = dnorm(x)
+plot(x, dx, type = "l", cex = 2, lwd = 3)
+```
+
+```{r}
+plot(x, dx, type = "l", cex = 2, lwd = 3)
+plot(x, pnorm(x), type = "l")
+```
