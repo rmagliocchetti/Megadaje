@@ -20,7 +20,12 @@ format:
 
 Daje, dajino, dajone
 
+All'improvviso, Capena
+![Capena](Dajino/img-2.jpg)
+[Link to something] <https://iris.unive.it/handle/10278/3679958>
+
 ## Mini dajino
+Poffarbacco $$X = V + E$$
 
 ### Micro dajino
 
